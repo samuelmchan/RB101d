@@ -1,0 +1,7 @@
+welcome: "Welcome to Mortgage Calculator! This program will help calculate your monthly mortgage payment"
+amt: "To begin, what is your total loan amount?: "
+invalid_amt: "That's not a valid number, please try again: "
+duration: "How many #{duration_period_unit} is your loan term?: "
+verify_unit: "Is your loan term in years or months? Enter Y or M: "
+invalid_input: "That's not a valid input, please try again: "
+rate: "Excellent, what is your quoted APR percentage (example- Enter 5 for 5%) : "

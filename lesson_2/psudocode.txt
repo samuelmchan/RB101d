@@ -1,0 +1,24 @@
+START
+PRINT "What is the first integer"
+GET input for first integer
+SET integer1 to user input
+PRINT "What is the second integer"
+GET input for second integer
+SET integer2 to user input
+SET result to integer1 + integer2
+PRINT "The sum of integer1 and integer2 is result"
+END
+
+START
+# Given integers x,y
+SET result = x * y
+PRINT "The sum of x and y is result"
+END
+
+START
+# Given an array of strings
+END
+
+START
+# Given an array of integers
+END
