@@ -1,0 +1,21 @@
+Read the below statements regarding select and identify all the statements which are correct.
+
+Question 7
+
+A If you call each with a block on an array that contains seven elements, the block will always execute seven times. YES
+B When each is called with a block on a hash, it returns an array. NO, returns self
+C When each is called with a block on an array, it returns the array object that it was called on. YES
+D When called with a block, the Array#each method considers the truthiness of the block's return value. NO
+
+Question 8
+A If select was called with a block that returned a falsey value on every iteration, select would return nil, NO, returns empty collection
+B When select is called with a block, it evaluates the truthiness of the block's return value. Yes
+C If select was called on an array with a block that returned a truthy value on each iteration, the original array would be returned. Yes
+D When select is called with a block on a hash it returns a new hash. Yes
+
+Question 9
+
+A If map was called with a block that returned nil on every iteration, it would return an empty array. No, it would be [nil, nil...etc]
+B If map was called with a block on an array containing five items, the return value would be an array containing five items.
+C Enumerable#map and Enumerable#collect perform the same function.
+D When map is called with a block on a hash it returns a new hash.

@@ -12,13 +12,20 @@ END
 START
 # Given integers x,y
 SET result = x * y
-PRINT "The sum of x and y is result"
+RETURN result
 END
 
 START
-# Given an array of strings
+# Given an collection of strings
+
+SET string_array to collection of strings
+RETURN concatenated_string as concatenated string array
+
 END
 
 START
 # Given an array of integers
+
+SET new_array as 
+
 END
