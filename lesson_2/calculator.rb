@@ -12,17 +12,16 @@ def valid_number?(num)
 end
 
 def operation(x, y, z)
-  result =  case z
-            when '1'
-              x.to_i + y.to_i
-            when '2'
-              x.to_i - y.to_i
-            when '3'
-              x.to_i * y.to_i
-            when '4'
-              x.to_f / y.to_f
-            end
-  result
+  case z
+  when '1'
+    x.to_i + y.to_i
+  when '2'
+    x.to_i - y.to_i
+  when '3'
+    x.to_i * y.to_i
+  when '4'
+    x.to_f / y.to_f
+  end
 end
 
 name = ''
@@ -81,7 +80,6 @@ loop do
   end
 
   prompt('Calculating...')
-
   prompt("Your result is #{operation(number1, number2, operator)}")
   prompt('Would you like to perform another calculation? Y/N: ')
   repeat = gets.chomp

@@ -1,6 +1,6 @@
 require 'yaml'
 
-MESSAGES = YAML.load_file('mortgage_messages.yml')
+MESSAGES = YAML.`load_file('mortgage_messages.yml')
 
 def monthly_payment(loan_amount, interest_rate, duration)
   loan_amount * (interest_rate / (1 - (1 + interest_rate)**(-duration)))
